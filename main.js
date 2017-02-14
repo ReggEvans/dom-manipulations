@@ -72,7 +72,7 @@ document.querySelector("#pig-latin button").addEventListener('click',function(){
   var ulNode = document.querySelector('#pig-latin ul')
   var liArray = ulNode.children
   for (var i = 0; i < liArray.length; i ++) {
-  		liArray[i].innerHTML.split("").reverse().join("")
+  		liArray[i].innerHTML = liArray[i].innerHTML.split("").reverse().join("")
   	}
 })
 
