@@ -9,6 +9,8 @@ This repo contains javascript DOM Manipulation exercises. The results are hosted
 
 ## Installation
 ```
-git clone https://reggevans.github.io/dom-manipulation/
+git clone https://github.com/ReggEvans/dom-manipulations.git
+git remote remove origin
 open index.html
+write answers in main.js
 ```
